@@ -6,6 +6,7 @@ pages:
     - echo 'Deploying...'
   artifacts:
     paths:
-      - .
+      - script.js
+      - index.html
   only:
     - main
