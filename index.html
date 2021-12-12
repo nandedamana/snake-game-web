@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<script src="script.js"></script>
+		
+		<style>
+			#hbox {
+				display: flex;
+			}
+
+			#controls {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			#cnvsAndStatus {
+				display: flex;
+				flex-direction: column;
+			}
+
+			#status {
+				display: flex;
+			}
+
+			#status div {
+				flex: 1;
+				padding: 0.5em;
+				background: #eee;
+				border: 1px solid #ccc;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="hbox">
+			<div id="cnvsAndStatus">
+				<canvas id="cnvs"></canvas>
+				<div id="status">
+					<div id="gemCountdown"></div>
+					<div>Speed: <span id="speed"></span></div>
+					<div id="gameOver"></div>
+					<div>Score: <span id="score"></span></div>
+				</div>
+			</div>
+			<div id="controls">
+				<button id="btnPause">Pause / R</button>
+				<button id="btnRestart">Restart</button>
+				<button id="btnL">L</button>
+				<button id="btnU">U</button>
+				<button id="btnD">D</button>
+				<button id="btnR">R</button>
+			</div>
+		</div>
+	</body>
+</html>
