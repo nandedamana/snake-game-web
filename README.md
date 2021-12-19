@@ -3,7 +3,11 @@
 This is a quick implementation of the classic snake game in HTML and JavaScript.
 Took only a couple of hours and 300 lines of code.
 
-Features:
+## Try It Online
+
+Visit: [https://nandedamana.gitlab.io/snake-game-web/](https://nandedamana.gitlab.io/snake-game-web/)
+
+## Features
 
 * Gems with and without timeout
 * Snake grows as it grabs gems
