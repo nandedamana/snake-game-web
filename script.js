@@ -191,7 +191,7 @@ function paint(state) {
 			}
 
 			cntxt.fillRect(x * vidattr.scale, y * vidattr.scale,
-			               x + vidattr.scale, y + vidattr.scale);
+			               vidattr.scale, vidattr.scale);
 		}
 	}
 	
